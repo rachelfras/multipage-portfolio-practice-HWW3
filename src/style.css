@@ -90,3 +90,29 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 52px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 576px) {
+  .info-columns .col-img {
+    display: none;
+  }
+
+  .info-columns {
+    text-align: center;
+  }
+
+  .about-img img {
+    max-width: 260px;
+    display: block;
+    margin: 0 auto;
+  }
+}
